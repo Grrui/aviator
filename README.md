@@ -12,7 +12,7 @@ Aviator是一个高性能、轻量级的java语言实现的表达式求值引擎
 
 ## 3.使用
 ### 3.1.执行表达式
-[示例](www.baidu.com)
+[示例](https://github.com/Grrui/aviator/tree/master/src/main/java/expression)
 
 Aviator的使用方式比较简单，通过使用AviatorEvaluator.execute基本可以实现大部分功能：
 ```java
@@ -32,7 +32,7 @@ public class Main {
 1. execute()，需要传递Map格式参数
 2. exec(),不需要传递Map
 #### 3.2.1. execute
-[示例](www.baidu.com)
+[示例](https://github.com/Grrui/aviator/tree/master/src/main/java/execute)
 ```java
 package execute;
 
@@ -49,7 +49,7 @@ public class Main {
 }
 ```
 #### 3.2.2. exec
-[示例](www.baidu.com)
+[示例](https://github.com/Grrui/aviator/tree/master/src/main/java/exec)
 ```java
 package exec;
 
@@ -67,7 +67,7 @@ Aviator可以使用两种函数：内置函数、自定义函数
 #### 3.3.1. 使用内置函数
 Aviator提供了非常多的内置函数。具体可以官方文档或者文章最后的参考链接。
 
-[示例](www.baidu.com)
+[示例](https://github.com/Grrui/aviator/tree/master/src/main/java/buildin)
 ```java
 package buildin;
 
@@ -83,7 +83,7 @@ public class Main {
 ```
 #### 3.3.2. 自定义函数
 自定义函数需要继承AbstractFunction类，重写目标方法。
-[示例](www.baidu.com)
+[示例](https://github.com/Grrui/aviator/tree/master/src/main/java/defined)
 ```java
 package defined;
 
